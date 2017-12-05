@@ -1,14 +1,18 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+  <ion-navbar color="secondary">
+  <ion-title> <img src = "assets/imgs/logo.png" /> </ion-title>
+  <ion-buttons end>
+    <button ion-button icon-only (click)="  ()"><ion-icon name="add-circle"></ion-icon></button>
+  </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-item>
+      <button ion-item (click)="viewUser(user)">
+          TITLE GOES HERE
+          <span>0 items</span>
+          </button>
+  </ion-item>
+  
 </ion-content>

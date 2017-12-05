@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  addUser(){}
+
+  viewUser(user){}
+
 }
